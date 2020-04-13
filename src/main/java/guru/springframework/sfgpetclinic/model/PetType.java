@@ -1,5 +1,11 @@
 package guru.springframework.sfgpetclinic.model;
 
+/**
+ * PetType class stores pet's name
+ * 
+ * @author jorge.dutton
+ *
+ */
 public class PetType {
 
 	private String name;
