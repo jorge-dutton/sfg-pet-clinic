@@ -1,6 +1,0 @@
-# Created at 2020-05-20T12:38:10.527
-Picked up JAVA_TOOL_OPTIONS: -Xmx4096m -XX:MaxPermSize=2048m -Xms2048m
-
-# Created at 2020-05-20T12:38:10.528
-Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
-
