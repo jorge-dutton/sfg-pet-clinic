@@ -3,11 +3,11 @@ package guru.springframework.sfgpetclinic.services.map;
 import java.util.Set;
 
 import guru.springframework.sfgpetclinic.model.Vet;
-import guru.springframework.sfgpetclinic.services.CrudService;
+import guru.springframework.sfgpetclinic.services.VetService;
 
 public class VetServiceMap extends AbstractMapService<Vet, Long>
 		implements
-			CrudService<Vet, Long> {
+			VetService {
 
 	@Override
 	public Set<Vet> findAll() {
@@ -33,6 +33,12 @@ public class VetServiceMap extends AbstractMapService<Vet, Long>
 	public void delete(Vet object) {
 		super.deleteByObject(object);
 
+	}
+
+	@Override
+	public Vet findByLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
